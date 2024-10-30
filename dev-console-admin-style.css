@@ -1,0 +1,149 @@
+/* MAIN WORDPRESS THEME EDITS */
+#wpbody-content, #wpwrap {
+	background: #444 !important;
+}
+
+#adminmenuback {
+	z-index: 0;
+}
+
+/* ACE STYLE EDITS */
+
+
+/* PLUGIN STYLE */
+/*#JK-dev-console  .editorFrame, #JK-dev-console #save-notice {
+	-webkit-transition:height 0.4s, width 0.4s, opacity 0.4s;
+    transition:height 0.4s, width 0.4s, opacity 0.4s;
+}*/
+
+#JK-dev-console .opacityZero {
+	opacity: 0;
+}
+
+#JK-dev-console .opacityFull {
+	opacity: 1;
+}
+
+#JK-dev-console .fullscreen {
+	position: absolute;
+	z-index: 999999;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#JK-dev-console .editorFrame {
+	min-width: 49.5%;
+	max-width: 99%;
+	box-sizing: border-box;
+	display: block;
+	padding-right: 2px;
+}
+
+#JK-dev-console .editorarea {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 500px;
+	height: 100%;
+}
+
+#JK-dev-console #cssEditor {
+	margin-right: 0.5%;
+}
+
+#JK-dev-console .clear {
+	clear: both;
+}
+
+#JK-dev-console .LangTitle, #JK-dev-console  h1, #JK-dev-console  .description {
+	color: #aaa;
+}
+
+#JK-dev-console #serverResponse {
+	color: green;
+}
+
+#JK-dev-console .mPointer {
+	cursor: pointer;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	display: inline;
+	line-height: 1em;
+	vertical-align: middle;
+}
+
+#JK-dev-console .directory {
+	color: green;
+}
+
+#JK-dev-console h2 {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#JK-dev-console  .filename {
+	font-size: 1em;
+	color: #252525;
+}
+
+#JK-dev-console .description {
+	color: #ccc;
+}
+
+#JK-dev-console  button {
+	height: 33px;
+	width: 99px;
+	margin-top: 5px;
+	color: #fff;
+	background: #2ea2cc;
+	border: none;
+	border-radius: 5px;
+}
+
+#JK-dev-console  button:hover {
+	background: #1d91bb;
+}
+
+#JK-dev-console  button:active {
+	background: #0c80aa;
+}
+
+#JK-dev-console #save-notice-wrapper {
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 100px;
+	z-index: 99999;
+}
+
+#JK-dev-console	#save-notice {
+	display: inline;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	background: #666;
+	border: 3px solid #333;
+	color: #0F0;
+}
+
+/* Thank you google for this awsome snippet! */
+#JK-dev-console .hotkey { 
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	color: #333;
+	font-size: 11px;
+	line-height: 1.4;
+	text-shadow: 0 1px 0 #fff;
+	font-family: Arial,Helvetica,sans-serif;
+	display: inline-block;
+	padding: 0.1em 0.6em;
+	margin: 0 0.2	em;
+	white-space: nowrap;
+	box-shadow: 0 1px 0px rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+	border-radius: 3px;
+}
